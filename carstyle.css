@@ -1,0 +1,64 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  border-radius: 30%;
+}
+
+h1 {
+  text-transform: uppercase;
+}
+
+button {
+  border: 0;
+  border-radius: 20px;
+  padding: 5px 20px;
+  font-weight: 600;
+}
+
+p {
+  margin-bottom: 5rem;
+  text-align: left;
+}
+
+.container {
+  border-radius: 20px;
+  padding: 0px;
+  width: 100%;
+  max-width: 960px;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  color: white;
+}
+
+#sedans,
+#suvs,
+#luxury {
+  padding: 100px 30px;
+}
+
+#sedans {
+  background-color: #f0a700;
+}
+
+#suvs {
+  background-color: #137e86;
+}
+
+#luxury {
+  background-color: #067a66;
+}
+
+#sedans button {
+  color: #f0a700;
+}
+
+#suvs button {
+  color: #137e86;
+}
+
+#luxury button {
+  color: #067a66;
+}
